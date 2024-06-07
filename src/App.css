@@ -1,0 +1,28 @@
+body{
+  background-color: #2A3439;
+  margin: 0;
+  height: 100%;
+}
+
+.title{
+  background-color: orange;
+  padding: 1%;
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+  align-self: center;
+  background-color: gray;
+  width: 40%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
